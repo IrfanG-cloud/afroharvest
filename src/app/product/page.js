@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Accordion from "@/components/Accordion";
 import Link from "next/link";
+import ContactForm from "../contact/page";
 
 const items = [
     {
@@ -157,6 +158,9 @@ const page = () => {
         <Link href="/" className="bg-[#1c3f1d] w-60 px-10 py-3 text-white rounded-[25px] mt-8 text-[14px]" >Learn More</Link>
         </div>
       </div>
+      <div className="py-10">
+        <ContactForm />
+        </div>
     </div>
   );
 };

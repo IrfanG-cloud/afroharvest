@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import ContactForm from "../contact/page";
 
 const page = () => {
   return (
@@ -58,6 +59,9 @@ const page = () => {
         </div>
         <div className="mx-4 py-12">
           <Image src="/abt.png" alt="" width="500" height="500" />
+        </div>
+        <div className="py-10">
+        <ContactForm />
         </div>
       </div>
     </>
