@@ -92,6 +92,8 @@ const Hero = () => {
         {/* <div className="py-10">
         <ContactForm />
         </div> */}
+        <Image src="/bg.jfif" alt="" width={500} height={400} className="w-full h-[400px]"/>
+
       </div>
     </>
   );

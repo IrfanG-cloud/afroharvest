@@ -59,6 +59,7 @@ const page = () => {
         <div className="mx-4 py-12">
           <Image src="/abt.png" alt="" width="500" height="500" />
         </div>
+        <Image src="/bg.jfif" alt="" width={500} height={400} className="w-full h-[400px]"/>
       </div>
     </>
   );
