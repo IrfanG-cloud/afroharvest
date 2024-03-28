@@ -43,7 +43,7 @@ const Hero = () => {
               industrial Co.LTD.
               <br />
               All of our products are free from any kind of infestation, free
-              from any abnormal smell...
+              from any abnormal smell.
             </p>
             <div className="mx-auto py-8">
               <p>FOR MORE INQUIRIES</p>
