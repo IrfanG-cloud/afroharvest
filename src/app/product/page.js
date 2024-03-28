@@ -157,7 +157,6 @@ const page = () => {
         <Link href="/" className="bg-[#1c3f1d] w-60 px-10 py-3 text-white rounded-[25px] mt-8 text-[14px]" >Learn More</Link>
         </div>
       </div>
-      <Image src="/bg.jfif" alt="" width={500} height={400} className="w-full h-[400px]"/>
     </div>
   );
 };
