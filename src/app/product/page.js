@@ -42,6 +42,7 @@ const items = [
 
 const page = () => {
   return (
+    <>
     <div className="mx-8 py-10">
       <h1 className="text-2xl my-8 text-[#1c3f1d]">
         OUR PRODUCTS AND SERVICES
@@ -94,9 +95,9 @@ const page = () => {
       </div>
       <div className="md:flex md:justify-center py-10">
           <div className="w-1/2 flex flex-wrap gap-2">
-          <Image src="/image1.png" alt="pro" width={250} height={100} className="py-2" />
-          <Image src="/image2.png" alt="pro" width={250} height={100} className="py-2"/>
-          <Image src="/pro1.png" alt="pro" width={250} height={100} className="py-2"/>
+          <Image src="/aro-8.jfif" alt="pro" width={250} height={100} className="py-2" />
+          <Image src="/aro-9.jfif" alt="pro" width={250} height={100} className="py-2"/>
+          <Image src="/aro-10.jfif" alt="pro" width={250} height={100} className="py-2"/>
           </div>
           <div className="w-1/2">
             
@@ -105,9 +106,7 @@ const page = () => {
           </div>
       
       <div className="flex justify-center items-center my-8">
-        <div className="w-1/2 m-4">
-          <Image src="/pp.png" alt="pro" width={500} height={500} />
-        </div>
+        
         <div className="w-1/2 m-4">
           <h1 className="text-[#1c3f1d] text-xl pb-4 underline">
             PP Bags Production Plant
@@ -128,8 +127,14 @@ const page = () => {
             aesthetics.
           </p>
         </div>
+        <div className="w-1/2 m-4">
+          <Image src="/pp.png" alt="pro" width={500} height={500} />
+        </div>
       </div>
       <div className="flex justify-center items-center my-8">
+      <div className="w-1/2 m-4">
+          <Image src="/oil.png" alt="pro" width={500} height={500} />
+        </div>
         <div className="w-1/2 m-4">
           <h1 className="text-[#1c3f1d] text-xl pb-4 underline">
             Oil Mills Factory
@@ -148,20 +153,19 @@ const page = () => {
             providing the finest in Sudanese edible oils.
           </p>
         </div>
-        <div className="w-1/2 m-4">
-          <Image src="/oil.png" alt="pro" width={500} height={500} />
-        </div>
+        
       </div>
-      <div className="mx-auto">
-        <p>FOR MORE INQUIRIES</p>
+      <div className="mx-auto ">
         <div>
-        <Link href="/" className="bg-[#1c3f1d] w-60 px-10 py-3 text-white rounded-[25px] mt-8 text-[14px]" >Learn More</Link>
+        <p>FOR MORE INQUIRIES</p>
+        <div className="mt-5">
+        <Link href="/contact" className="bg-yellow-500 w-60 px-10 py-3 text-white rounded-[25px] mt-8 text-[14px]" >CONTACT US</Link>
+        </div>
         </div>
       </div>
-      <div className="py-10">
-        <ContactForm />
-        </div>
+     
     </div>
+     </>
   );
 };
 

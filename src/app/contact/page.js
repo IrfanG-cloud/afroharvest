@@ -35,7 +35,7 @@ function ContactForm() {
   };
 
   return (
-    <div className="w-full py-10">
+    <div className="w-full md:py-10">
       <div className=" md:mx-40 ">
         <div className="py-4 mx-10">
           <h2 className="text-2xl text-center">Contatc Us</h2>

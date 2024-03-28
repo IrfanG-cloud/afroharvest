@@ -60,7 +60,7 @@ const page = () => {
         <div className="mx-4 py-12">
           <Image src="/abt.png" alt="" width="500" height="500" />
         </div>
-        <div className="py-10">
+        <div className="py-10 bg-[#7ca07e]">
         <ContactForm />
         </div>
       </div>
