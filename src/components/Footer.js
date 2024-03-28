@@ -12,8 +12,8 @@ function Footer() {
         </div>
         <div>
           <h1 className="text-[15px]">Contact</h1>
-          <p className="text-[12px] pt-4">+971-50-180-1570</p>
-          <p className="text-[12px]">AfroHarvest@gmail.com</p>
+          <p className="text-[12px] pt-4">+971-50-219-4669</p>
+          {/* <p className="text-[12px]">AfroHarvest@gmail.com</p> */}
         </div>
       </footer>
     );

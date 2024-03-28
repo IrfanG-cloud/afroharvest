@@ -69,28 +69,6 @@ const page = () => {
             commodities to your doorstep.
           </p>
          
-          {/* <div className="flex justify-between ">
-            <div className="my-4">
-              <Image src="/seed1.png" alt="" width={200} height={200} />
-              <ul className="py-4">
-                <li>Peanut Cake</li>
-                <li>Gum Arabic</li>
-                <li>Water Melon Seeds</li>
-                <li>Chick Peas</li>
-                <li>Pigeon </li>
-              </ul>
-            </div>
-            <div className="my-4">
-              <Image src="/seed1.png" alt="" width={200} height={200} />
-              <ul className="py-4">
-                <li>Peanut Cake</li>
-                <li>Gum Arabic</li>
-                <li>Water Melon Seeds</li>
-                <li>Chick Peas</li>
-                <li>Pigeon </li>
-              </ul>
-            </div>
-          </div> */}
         </div>
       </div>
       <div className="md:flex md:justify-center py-10">
@@ -131,30 +109,7 @@ const page = () => {
           <Image src="/pp.png" alt="pro" width={500} height={500} />
         </div>
       </div>
-      <div className="flex justify-center items-center my-8">
-      <div className="w-1/2 m-4">
-          <Image src="/oil.png" alt="pro" width={500} height={500} />
-        </div>
-        <div className="w-1/2 m-4">
-          <h1 className="text-[#1c3f1d] text-xl pb-4 underline">
-            Oil Mills Factory
-          </h1>
-          <p className="leading-8">
-            Welcome to Afro Harvest distinguished Edible Oil Factory, a leading
-            force in Khartoum and East Kordofan. Renowned for our iconic RAS
-            AL-Tor brand, we take pride in producing high-quality edible oils
-            that have become household names across Sudan. Specializing in
-            sesame, peanut, and sunflower oils, our factory is at the forefront
-            of culinary innovation, crafting oils that embody the rich flavors
-            of Sudanese crops. With a commitment to excellence, we deliver oils
-            that not only meet but exceed the highest standards of quality. At
-            Alfabriga African, our sesame, peanut, and sunflower oils are more
-            than just products; they are a testament to our dedication to
-            providing the finest in Sudanese edible oils.
-          </p>
-        </div>
-        
-      </div>
+
       <div className="mx-auto ">
         <div>
         <p>FOR MORE INQUIRIES</p>
