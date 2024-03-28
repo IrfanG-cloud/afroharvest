@@ -15,12 +15,12 @@ function Navbar() {
 
   return (
     <>
-    <nav className="bg-white">
+    <nav className="bg-[#7bb57e]">
       <div className="mx-auto flex justify-between items-center px-4 md:px-8">
         <div>
           <Link href="/">
             <div className="flex items-center">
-              <Image src="/logo.png" alt="logo" width={80} height={60} />
+              <Image src="/logo.png" alt="logo" width={100} height={100} />
             </div>
           </Link>
         </div>
@@ -32,17 +32,17 @@ function Navbar() {
         <ul className={`md:flex space-x-8 ${isOpen ? 'block' : 'hidden'}`}>
           <li>
             <Link href="/product">
-              <div className="text-black border-b-2 border-yellow-500 hover:text-yellow-500 hover:">Product & Service</div>
+              <div className="text-black text-[20px] border-b-2 border-yellow-500 hover:text-yellow-500 hover:">Product & Service</div>
             </Link>
           </li>
           <li>
             <Link href="/about">
-              <div className="text-black hover:text-yellow-500 hover:border-b-2 hover:border-yellow-500">About</div>
+              <div className="text-black text-[20px] hover:text-yellow-500 hover:border-b-2 hover:border-yellow-500">About</div>
             </Link>
           </li>
           <li>
             <Link href="/contact">
-              <div className="text-black hover:text-yellow-500 hover:border-b-2 hover:border-yellow-500">Contact</div>
+              <div className="text-black text-[20px] hover:text-yellow-500 hover:border-b-2 hover:border-yellow-500">Contact</div>
             </Link>
           </li>
         </ul>

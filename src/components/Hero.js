@@ -87,7 +87,7 @@ const Hero = () => {
           </div>
 
         </div>
-        <div className="py-10">
+        <div className="py-10 bg-[#7ca07e]">
         <ContactForm />
         </div>
 
