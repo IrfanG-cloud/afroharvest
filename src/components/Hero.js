@@ -43,15 +43,13 @@ const Hero = () => {
               industrial Co.LTD.
               <br />
               All of our products are free from any kind of infestation, free
-              from any abnormal smell, freshly fumigated and fit for human to be
-              consumption. We always strive to build good relationships with our
-              customers.
+              from any abnormal smell...
             </p>
             <div className="mx-auto py-8">
               <p>FOR MORE INQUIRIES</p>
               <div className="py-4">
                 <Link
-                  href="/"
+                  href="/about"
                   className="bg-[#1c3f1d] w-60 px-10 py-3 text-white rounded-[25px] mt-8 text-[14px]"
                 >
                   Learn More
