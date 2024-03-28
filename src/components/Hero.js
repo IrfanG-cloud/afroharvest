@@ -49,7 +49,7 @@ const Hero = () => {
               <p>FOR MORE INQUIRIES</p>
               <div className="py-4">
                 <Link
-                  href="/about"
+                  href="/"
                   className="bg-[#1c3f1d] w-60 px-10 py-3 text-white rounded-[25px] mt-8 text-[14px]"
                 >
                   Learn More
@@ -90,7 +90,6 @@ const Hero = () => {
         {/* <div className="py-10">
         <ContactForm />
         </div> */}
-        <Image src="/bg.jfif" alt="" width={500} height={400} className="w-full h-[400px]"/>
 
       </div>
     </>
