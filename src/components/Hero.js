@@ -87,9 +87,9 @@ const Hero = () => {
           </div>
 
         </div>
-        {/* <div className="py-10">
+        <div className="py-10">
         <ContactForm />
-        </div> */}
+        </div>
 
       </div>
     </>
