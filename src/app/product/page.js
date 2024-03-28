@@ -47,12 +47,12 @@ const page = () => {
       <h1 className="text-2xl my-8 text-[#1c3f1d]">
         OUR PRODUCTS AND SERVICES
       </h1>
-      <div className="flex justify-center my-8">
+      <div className="md:flex md:justify-center my-8">
         <div className="w-1/2 m-4">
           <Image src="/img2.png" alt="pro" width={500} height={500} />
 
         </div>
-        <div className="w-1/2 m-4">
+        <div className="md:w-1/2 m-4">
           <h1 className="text-[#1c3f1d] text-xl pb-4 underline">
             Commodities Exporting Division
           </h1>
@@ -72,20 +72,20 @@ const page = () => {
         </div>
       </div>
       <div className="md:flex md:justify-center py-10">
-          <div className="w-1/2 flex flex-wrap gap-2">
+          <div className="md:w-1/2 flex flex-wrap gap-2">
           <Image src="/aro-8.jfif" alt="pro" width={250} height={100} className="py-2" />
           <Image src="/aro-9.jfif" alt="pro" width={250} height={100} className="py-2"/>
           <Image src="/aro-10.jfif" alt="pro" width={250} height={100} className="py-2"/>
           </div>
-          <div className="w-1/2">
+          <div className="md:w-1/2">
             
             <Accordion items={items} />
           </div>
           </div>
       
-      <div className="flex justify-center items-center my-8">
+      <div className="md:flex md:justify-center items-center my-8">
         
-        <div className="w-1/2 m-4">
+        <div className="md:w-1/2 m-4">
           <h1 className="text-[#1c3f1d] text-xl pb-4 underline">
             PP Bags Production Plant
           </h1>
@@ -105,12 +105,12 @@ const page = () => {
             aesthetics.
           </p>
         </div>
-        <div className="w-1/2 m-4">
+        <div className="md:w-1/2 m-4">
           <Image src="/pp.png" alt="pro" width={500} height={500} />
         </div>
       </div>
 
-      <div className="mx-auto ">
+      <div className="md:mx-auto ">
         <div>
         <p>FOR MORE INQUIRIES</p>
         <div className="mt-5">
