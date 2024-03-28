@@ -5,7 +5,7 @@ import ContactForm from "../contact/page";
 const page = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center mx-40 py-20">
+      <div className="md:flex md:flex-col md:justify-center md:items-center md:mx-40 sm:py-10 md:py-20">
         <div className=" mx-4">
           <h1 className="text-2xl my-8 text-[#1c3f1d] underline-offset-2 text-center">
             About US
@@ -60,9 +60,9 @@ const page = () => {
         <div className="mx-4 py-12">
           <Image src="/abt.png" alt="" width="500" height="500" />
         </div>
-        <div className="py-10 bg-[#7ca07e]">
+      </div>
+      <div className="py-10 bg-[#7ca07e]">
         <ContactForm />
-        </div>
       </div>
     </>
   );
