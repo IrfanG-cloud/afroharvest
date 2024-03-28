@@ -48,7 +48,6 @@ function Navbar() {
         </ul>
       </div>
     </nav>
-    <Image src="/bg.jfif" alt="" width={500} height={400} className="w-full h-[400px]"/>
     </>
   );
 }
