@@ -49,7 +49,7 @@ const Hero = () => {
               <p>FOR MORE INQUIRIES</p>
               <div className="py-4">
                 <Link
-                  href="/"
+                  href="/about"
                   className="bg-yellow-500 w-60 px-16 py-3 text-white rounded-[25px] mt-8 text-[14px]"
                 >
                   Learn More
