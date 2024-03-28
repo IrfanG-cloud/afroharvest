@@ -37,7 +37,7 @@ function ContactForm() {
   return (
     <div className="w-full md:py-10">
       <div className=" md:mx-40 ">
-        <div className="py-4 mx-10">
+        {/* <div className="py-4 mx-10">
           <h2 className="text-2xl text-center">Contatc Us</h2>
           <p className="text-md text-center">
             Contact Us Reach out to us if you have any questions or inquiries.
@@ -50,7 +50,7 @@ function ContactForm() {
           <p className="text-12 text-center">+971-502194669</p>
           <p className="text-center">Burjuman Business Tower, office 908, Dubai, UAE</p>
 
-        </div>
+        </div> */}
       
       <div className="md:mx-8 bg-[#1c3f1d] rounded ">
         <form onSubmit={handleSubmit} className="p-20">
