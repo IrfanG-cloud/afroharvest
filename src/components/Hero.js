@@ -50,7 +50,7 @@ const Hero = () => {
               <div className="py-4">
                 <Link
                   href="/"
-                  className="bg-[#1c3f1d] w-60 px-10 py-3 text-white rounded-[25px] mt-8 text-[14px]"
+                  className="bg-yellow-500 w-60 px-16 py-3 text-white rounded-[25px] mt-8 text-[14px]"
                 >
                   Learn More
                 </Link>
@@ -62,11 +62,11 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="bg-white py-10">
+        <div className="bg-white md:py-10">
           <div className="flex flex-col justify-center">
             <div>
               <h1 className="text-4xl mb-4 text-center">Services</h1>
-              <div className="w-1/2" style={{ margin: "auto", display: "block" }}>
+              <div className=" w-[70%] md:w-1/2" style={{ margin: "auto", display: "block" }}>
                 <Accordion items={items} />
               </div>
             </div>

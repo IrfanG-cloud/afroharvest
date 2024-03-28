@@ -36,7 +36,7 @@ function ContactForm() {
 
   return (
     <div className="w-full py-10">
-      <div className="mx-40 ">
+      <div className=" md:mx-40 ">
         <div className="py-4 mx-10">
           <h2 className="text-2xl text-center">Contatc Us</h2>
           <p className="text-md text-center">
@@ -49,10 +49,10 @@ function ContactForm() {
           <h1 className="text-2xl text-center">Reach US Also At</h1>
           <p className="text-12 text-center">+971-502194669</p>
           <p className="text-center">Burjuman Business Tower, office 908, Dubai, UAE</p>
-          <p className="text-12 text-center">alfabraga.com</p>
+
         </div>
       
-      <div className="mx-8 bg-[#1c3f1d] rounded ">
+      <div className="md:mx-8 bg-[#1c3f1d] rounded ">
         <form onSubmit={handleSubmit} className="p-20">
           <div className="mb-4">
             <label htmlFor="name" className="text-white">
